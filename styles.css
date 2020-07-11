@@ -1,0 +1,150 @@
+body {
+  font-family: Montserrat;
+}
+
+#title {
+  background-color: purple;
+  color: black;
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  line-height: 1.2;
+  font-size: 3.5rem;
+  padding: 7%;
+}
+
+h2 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  line-height: 1.5;
+  font-size: 3rem;
+  margin: auto 100px auto 100px;
+  text-align: center;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+.cta-head{
+  font-family: "Montserrat-Black";
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat-light;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.title-image {
+  width: 60%;
+  /* transform: rotate(25deg); */
+  position: absolute;
+  /* right: 30%; */
+  border-radius: 100px;
+  padding: 5%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: purple;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: purple;
+}
+
+#testimonials {
+  text-align: center;
+  background-color:purple;
+  color:Black;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.test-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: purple;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.pressing {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 4%;
+}
+@media (max-width: 1028px){
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+#cta{
+  background-color: purple;
+  color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+#footer{
+  text-align: center;
+  padding: 5% 15%;
+}
+.soc{
+  margin: 20px 10px;
+}
